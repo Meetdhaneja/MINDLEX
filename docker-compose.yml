@@ -1,0 +1,53 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: mindlex-postgres
+    environment:
+      POSTGRES_DB: mindlex
+      POSTGRES_USER: mindlex
+      POSTGRES_PASSWORD: mindlex
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: mindlex-redis
+    ports:
+      - "6379:6379"
+
+  backend:
+    image: mindlex-ai-backend:dev
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: mindlex-backend
+    environment:
+      LM_STUDIO_URL: ${DOCKER_LM_STUDIO_URL:-http://host.docker.internal:1234}
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://mindlex:mindlex@postgres:5432/mindlex}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      DSM_DATA_PATH: /app/dsm_top50_clean.json
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - redis
+
+  frontend:
+    image: mindlex-ai-frontend:dev
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: mindlex-frontend
+    environment:
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

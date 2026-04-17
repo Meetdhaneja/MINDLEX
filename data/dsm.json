@@ -1,0 +1,2495 @@
+[
+  {
+    "category": "Neurodevelopmental Disorders",
+    "name": "Autism Spectrum Disorder",
+    "code": "F84.0",
+    "criteria": {
+      "A": "Persistent deficits in social communication and social interaction across settings.",
+      "B": "Restricted, repetitive patterns of behavior, interests, or sensory responses are present.",
+      "C": "Symptoms begin early in development, impair daily functioning, and are not better explained by intellectual disability alone."
+    },
+    "symptoms": [
+      {
+        "id": "limited_back_and_forth_conversation",
+        "text": "limited back-and-forth conversation"
+      },
+      {
+        "id": "reduced_eye_contact_or_nonverbal_communication",
+        "text": "reduced eye contact or nonverbal communication"
+      },
+      {
+        "id": "difficulty_making_or_keeping_relationships",
+        "text": "difficulty making or keeping relationships"
+      },
+      {
+        "id": "repetitive_movements_or_speech",
+        "text": "repetitive movements or speech"
+      },
+      {
+        "id": "strong_need_for_routines",
+        "text": "strong need for routines"
+      },
+      {
+        "id": "highly_fixed_interests",
+        "text": "highly fixed interests"
+      },
+      {
+        "id": "sensory_overreaction_or_underreaction",
+        "text": "sensory overreaction or underreaction"
+      }
+    ],
+    "duration": "Starts in early developmental period",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "autism",
+      "asd",
+      "social communication problems",
+      "repetitive behaviors",
+      "sensory issues",
+      "rigid routines"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Neurodevelopmental Disorders",
+    "name": "Attention-Deficit/Hyperactivity Disorder",
+    "code": "F90.2",
+    "criteria": {
+      "A": "A persistent pattern of inattention and/or hyperactivity-impulsivity interferes with functioning or development.",
+      "B": "Several symptoms are present before age 12 and occur in two or more settings such as home, school, or work.",
+      "C": "Symptoms cause clear impairment and are not better explained by another mental disorder."
+    },
+    "symptoms": [
+      {
+        "id": "difficulty_sustaining_attention",
+        "text": "difficulty sustaining attention"
+      },
+      {
+        "id": "careless_mistakes",
+        "text": "careless mistakes"
+      },
+      {
+        "id": "seems_not_to_listen",
+        "text": "seems not to listen"
+      },
+      {
+        "id": "does_not_finish_tasks",
+        "text": "does not finish tasks"
+      },
+      {
+        "id": "loses_things_easily",
+        "text": "loses things easily"
+      },
+      {
+        "id": "fidgeting",
+        "text": "fidgeting"
+      },
+      {
+        "id": "excessive_talking",
+        "text": "excessive talking"
+      },
+      {
+        "id": "interrupting_others",
+        "text": "interrupting others"
+      }
+    ],
+    "duration": "Chronic pattern with onset before age 12",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "adhd",
+      "attention problems",
+      "hyperactivity",
+      "impulsivity",
+      "distractible",
+      "restless"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Neurodevelopmental Disorders",
+    "name": "Language Disorder",
+    "code": "F80.2",
+    "criteria": {
+      "A": "Persistent difficulties in learning and using language across speaking, writing, sign language, or understanding.",
+      "B": "Language ability is clearly below what is expected for age and causes functional limits in communication, school, or work.",
+      "C": "Symptoms begin in development and are not better explained by hearing loss, intellectual disability, or another condition."
+    },
+    "symptoms": [
+      {
+        "id": "limited_vocabulary",
+        "text": "limited vocabulary"
+      },
+      {
+        "id": "short_or_simple_sentences",
+        "text": "short or simple sentences"
+      },
+      {
+        "id": "grammar_mistakes",
+        "text": "grammar mistakes"
+      },
+      {
+        "id": "difficulty_understanding_spoken_language",
+        "text": "difficulty understanding spoken language"
+      },
+      {
+        "id": "difficulty_telling_stories_or_explaining_ideas",
+        "text": "difficulty telling stories or explaining ideas"
+      }
+    ],
+    "duration": "Begins in early development",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "language disorder",
+      "speech and language delay",
+      "trouble understanding words",
+      "expressive language problems",
+      "communication delay"
+    ],
+    "risk_level": "low"
+  },
+  {
+    "category": "Neurodevelopmental Disorders",
+    "name": "Developmental Coordination Disorder",
+    "code": "F82",
+    "criteria": {
+      "A": "Learning and execution of coordinated motor skills are substantially below age expectations.",
+      "B": "Motor problems interfere with self-care, school tasks, play, or productivity.",
+      "C": "Symptoms begin early in development and are not due to intellectual disability, visual impairment, or a neurological disease."
+    },
+    "symptoms": [
+      {
+        "id": "clumsy_movements",
+        "text": "clumsy movements"
+      },
+      {
+        "id": "poor_balance",
+        "text": "poor balance"
+      },
+      {
+        "id": "drops_or_bumps_into_things",
+        "text": "drops or bumps into things"
+      },
+      {
+        "id": "slow_handwriting_or_fine_motor_work",
+        "text": "slow handwriting or fine motor work"
+      },
+      {
+        "id": "difficulty_learning_sports_or_coordinated_tasks",
+        "text": "difficulty learning sports or coordinated tasks"
+      }
+    ],
+    "duration": "Begins in early developmental period",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "coordination disorder",
+      "clumsy child",
+      "motor skill problems",
+      "fine motor difficulty",
+      "poor balance"
+    ],
+    "risk_level": "low"
+  },
+  {
+    "category": "Neurodevelopmental Disorders",
+    "name": "Tourette's Disorder",
+    "code": "F95.2",
+    "criteria": {
+      "A": "Multiple motor tics and at least one vocal tic have been present at some point, though not always at the same time.",
+      "B": "Tics wax and wane but persist for more than 1 year since first tic onset.",
+      "C": "Onset occurs before age 18 and symptoms are not due to a substance or another medical condition."
+    },
+    "symptoms": [
+      {
+        "id": "eye_blinking",
+        "text": "eye blinking"
+      },
+      {
+        "id": "facial_grimacing",
+        "text": "facial grimacing"
+      },
+      {
+        "id": "shoulder_shrugging",
+        "text": "shoulder shrugging"
+      },
+      {
+        "id": "throat_clearing",
+        "text": "throat clearing"
+      },
+      {
+        "id": "sniffing_sounds",
+        "text": "sniffing sounds"
+      },
+      {
+        "id": "sudden_repetitive_vocalizations",
+        "text": "sudden repetitive vocalizations"
+      }
+    ],
+    "duration": "More than 1 year",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "tourette",
+      "tics",
+      "motor tics",
+      "vocal tics",
+      "throat clearing",
+      "blinking"
+    ],
+    "risk_level": "low"
+  },
+  {
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "name": "Delusional Disorder",
+    "code": "F22",
+    "criteria": {
+      "A": "One or more delusions are present for at least 1 month.",
+      "B": "Schizophrenia criteria have never been fully met, and functioning outside the delusion is not markedly odd.",
+      "C": "Mood episodes are brief compared with the delusional periods, and symptoms are not due to substances or medical illness."
+    },
+    "symptoms": [
+      {
+        "id": "fixed_false_beliefs",
+        "text": "fixed false beliefs"
+      },
+      {
+        "id": "persecutory_ideas",
+        "text": "persecutory ideas"
+      },
+      {
+        "id": "jealous_beliefs",
+        "text": "jealous beliefs"
+      },
+      {
+        "id": "grandiose_beliefs",
+        "text": "grandiose beliefs"
+      },
+      {
+        "id": "somatic_delusions",
+        "text": "somatic delusions"
+      }
+    ],
+    "duration": "At least 1 month",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "delusional disorder",
+      "fixed false belief",
+      "paranoia",
+      "persecutory beliefs",
+      "unshakeable belief"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "name": "Brief Psychotic Disorder",
+    "code": "F23",
+    "criteria": {
+      "A": "Sudden onset of one or more psychotic symptoms such as delusions, hallucinations, disorganized speech, or grossly disorganized behavior.",
+      "B": "At least one symptom is delusions, hallucinations, or disorganized speech.",
+      "C": "Episode lasts at least 1 day but less than 1 month, with eventual full return to previous functioning, and is not better explained by mood disorder or substances."
+    },
+    "symptoms": [
+      {
+        "id": "delusions",
+        "text": "delusions"
+      },
+      {
+        "id": "hallucinations",
+        "text": "hallucinations"
+      },
+      {
+        "id": "disorganized_speech",
+        "text": "disorganized speech"
+      },
+      {
+        "id": "grossly_disorganized_behavior",
+        "text": "grossly disorganized behavior"
+      },
+      {
+        "id": "rapid_change_from_baseline",
+        "text": "rapid change from baseline"
+      }
+    ],
+    "duration": "1 day to less than 1 month",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "brief psychosis",
+      "sudden psychosis",
+      "hallucinations",
+      "delusions",
+      "disorganized behavior"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "name": "Schizophreniform Disorder",
+    "code": "F20.81",
+    "criteria": {
+      "A": "Two or more core psychotic symptoms are present, with at least one being delusions, hallucinations, or disorganized speech.",
+      "B": "Symptoms last long enough to meet the syndrome but the total duration is less than 6 months.",
+      "C": "Mood and medical causes do not better explain the presentation."
+    },
+    "symptoms": [
+      {
+        "id": "delusions",
+        "text": "delusions"
+      },
+      {
+        "id": "hallucinations",
+        "text": "hallucinations"
+      },
+      {
+        "id": "disorganized_speech",
+        "text": "disorganized speech"
+      },
+      {
+        "id": "disorganized_or_catatonic_behavior",
+        "text": "disorganized or catatonic behavior"
+      },
+      {
+        "id": "reduced_emotional_expression",
+        "text": "reduced emotional expression"
+      },
+      {
+        "id": "social_withdrawal",
+        "text": "social withdrawal"
+      }
+    ],
+    "duration": "1 month to less than 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "schizophreniform",
+      "psychosis",
+      "hallucinations",
+      "delusions",
+      "disorganized speech"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "name": "Schizophrenia",
+    "code": "F20.9",
+    "criteria": {
+      "A": "Two or more core psychotic symptoms are present for a significant portion of time, and at least one is delusions, hallucinations, or disorganized speech.",
+      "B": "Functioning in work, relationships, or self-care is markedly worse than before the illness.",
+      "C": "Continuous signs of disturbance persist for at least 6 months and are not better explained by mood disorder, substances, or medical illness."
+    },
+    "symptoms": [
+      {
+        "id": "delusions",
+        "text": "delusions"
+      },
+      {
+        "id": "hallucinations",
+        "text": "hallucinations"
+      },
+      {
+        "id": "disorganized_speech",
+        "text": "disorganized speech"
+      },
+      {
+        "id": "grossly_disorganized_behavior",
+        "text": "grossly disorganized behavior"
+      },
+      {
+        "id": "negative_symptoms",
+        "text": "negative symptoms"
+      },
+      {
+        "id": "social_withdrawal",
+        "text": "social withdrawal"
+      },
+      {
+        "id": "impaired_reality_testing",
+        "text": "impaired reality testing"
+      }
+    ],
+    "duration": "At least 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "schizophrenia",
+      "psychosis",
+      "hearing voices",
+      "delusions",
+      "disorganized thinking",
+      "negative symptoms"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "name": "Schizoaffective Disorder",
+    "code": "F25.1",
+    "criteria": {
+      "A": "An uninterrupted illness includes a major mood episode together with core schizophrenia symptoms.",
+      "B": "There is a period of at least 2 weeks of delusions or hallucinations without a major mood episode.",
+      "C": "Mood symptoms are present for most of the total illness duration, and the condition is not due to substances or medical illness."
+    },
+    "symptoms": [
+      {
+        "id": "delusions",
+        "text": "delusions"
+      },
+      {
+        "id": "hallucinations",
+        "text": "hallucinations"
+      },
+      {
+        "id": "disorganized_thinking",
+        "text": "disorganized thinking"
+      },
+      {
+        "id": "major_depression_symptoms",
+        "text": "major depression symptoms"
+      },
+      {
+        "id": "manic_or_hypomanic_symptoms",
+        "text": "manic or hypomanic symptoms"
+      },
+      {
+        "id": "impaired_functioning",
+        "text": "impaired functioning"
+      }
+    ],
+    "duration": "Ongoing illness with at least 2 weeks of psychosis without mood episode",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "schizoaffective",
+      "psychosis with mood symptoms",
+      "hallucinations",
+      "delusions",
+      "mania and psychosis",
+      "depression and psychosis"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Bipolar and Related Disorders",
+    "name": "Bipolar I Disorder",
+    "code": "F31.9",
+    "criteria": {
+      "A": "At least one manic episode has occurred, marked by abnormally elevated or irritable mood and increased energy.",
+      "B": "During the manic episode, symptoms such as decreased need for sleep, grandiosity, racing thoughts, pressured speech, or risky behavior are clearly present.",
+      "C": "Mood disturbance causes major impairment, may include psychosis or hospitalization, and is not due to substances or medical illness."
+    },
+    "symptoms": [
+      {
+        "id": "elevated_or_irritable_mood",
+        "text": "elevated or irritable mood"
+      },
+      {
+        "id": "increased_energy",
+        "text": "increased energy"
+      },
+      {
+        "id": "decreased_need_for_sleep",
+        "text": "decreased need for sleep"
+      },
+      {
+        "id": "grandiosity",
+        "text": "grandiosity"
+      },
+      {
+        "id": "racing_thoughts",
+        "text": "racing thoughts"
+      },
+      {
+        "id": "pressured_speech",
+        "text": "pressured speech"
+      },
+      {
+        "id": "risky_behavior",
+        "text": "risky behavior"
+      }
+    ],
+    "duration": "Mania lasts at least 1 week or any duration if hospitalized",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "bipolar 1",
+      "mania",
+      "high energy",
+      "no sleep",
+      "risky behavior",
+      "mood swings"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Bipolar and Related Disorders",
+    "name": "Bipolar II Disorder",
+    "code": "F31.81",
+    "criteria": {
+      "A": "There has been at least one hypomanic episode and at least one major depressive episode.",
+      "B": "There has never been a full manic episode.",
+      "C": "Mood episodes cause clinically significant distress or impairment and are not better explained by psychotic disorders."
+    },
+    "symptoms": [
+      {
+        "id": "periods_of_high_energy",
+        "text": "periods of high energy"
+      },
+      {
+        "id": "reduced_need_for_sleep",
+        "text": "reduced need for sleep"
+      },
+      {
+        "id": "increased_confidence",
+        "text": "increased confidence"
+      },
+      {
+        "id": "talking_more_than_usual",
+        "text": "talking more than usual"
+      },
+      {
+        "id": "major_depression_episodes",
+        "text": "major depression episodes"
+      },
+      {
+        "id": "mood_swings",
+        "text": "mood swings"
+      }
+    ],
+    "duration": "Hypomania lasts at least 4 days; depression lasts at least 2 weeks",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "bipolar 2",
+      "hypomania",
+      "depression with highs",
+      "mood swings",
+      "less severe mania"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Bipolar and Related Disorders",
+    "name": "Cyclothymic Disorder",
+    "code": "F34.0",
+    "criteria": {
+      "A": "For at least 2 years, numerous periods of hypomanic symptoms and depressive symptoms have occurred without meeting full episode criteria.",
+      "B": "Symptoms are present for at least half the time, and the person has not been symptom-free for more than 2 months at a time.",
+      "C": "The pattern causes distress or impairment and is not better explained by bipolar disorder, substances, or medical illness."
+    },
+    "symptoms": [
+      {
+        "id": "chronic_mood_ups_and_downs",
+        "text": "chronic mood ups and downs"
+      },
+      {
+        "id": "periods_of_extra_energy",
+        "text": "periods of extra energy"
+      },
+      {
+        "id": "periods_of_low_mood",
+        "text": "periods of low mood"
+      },
+      {
+        "id": "irritability",
+        "text": "irritability"
+      },
+      {
+        "id": "unstable_mood_pattern",
+        "text": "unstable mood pattern"
+      }
+    ],
+    "duration": "At least 2 years",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "cyclothymia",
+      "chronic mood swings",
+      "mild bipolar pattern",
+      "ups and downs",
+      "unstable mood"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Depressive Disorders",
+    "name": "Disruptive Mood Dysregulation Disorder",
+    "code": "F34.8",
+    "criteria": {
+      "A": "Severe recurrent temper outbursts are grossly out of proportion to the situation and inconsistent with developmental level.",
+      "B": "Between outbursts, mood is persistently irritable or angry most of the day, nearly every day, in multiple settings.",
+      "C": "Symptoms last at least 12 months, begin before age 10, and are not better explained by bipolar disorder or another condition."
+    },
+    "symptoms": [
+      {
+        "id": "frequent_severe_temper_outbursts",
+        "text": "frequent severe temper outbursts"
+      },
+      {
+        "id": "chronic_irritability",
+        "text": "chronic irritability"
+      },
+      {
+        "id": "anger_between_outbursts",
+        "text": "anger between outbursts"
+      },
+      {
+        "id": "problems_at_home_school_or_with_peers",
+        "text": "problems at home school or with peers"
+      }
+    ],
+    "duration": "At least 12 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "dmdd",
+      "chronic irritability",
+      "severe temper outbursts",
+      "angry child",
+      "frequent meltdowns"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Depressive Disorders",
+    "name": "Major Depressive Disorder",
+    "code": "F33.1",
+    "criteria": {
+      "A": "Five or more depressive symptoms are present during the same 2-week period, including depressed mood or loss of interest.",
+      "B": "Symptoms cause distress or impairment and may include sleep, appetite, energy, guilt, concentration, or suicidal changes.",
+      "C": "Episode is not due to substances or medical illness and is not better explained by bipolar disorder."
+    },
+    "symptoms": [
+      {
+        "id": "depressed_mood",
+        "text": "depressed mood"
+      },
+      {
+        "id": "loss_of_interest_or_pleasure",
+        "text": "loss of interest or pleasure"
+      },
+      {
+        "id": "sleep_changes",
+        "text": "sleep changes"
+      },
+      {
+        "id": "appetite_or_weight_changes",
+        "text": "appetite or weight changes"
+      },
+      {
+        "id": "low_energy",
+        "text": "low energy"
+      },
+      {
+        "id": "feelings_of_worthlessness_or_guilt",
+        "text": "feelings of worthlessness or guilt"
+      },
+      {
+        "id": "poor_concentration",
+        "text": "poor concentration"
+      },
+      {
+        "id": "suicidal_thoughts",
+        "text": "suicidal thoughts"
+      }
+    ],
+    "duration": "At least 2 weeks",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "major depression",
+      "depression",
+      "sadness",
+      "hopelessness",
+      "loss of interest",
+      "suicidal thoughts"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Depressive Disorders",
+    "name": "Persistent Depressive Disorder",
+    "code": "F34.1",
+    "criteria": {
+      "A": "Depressed mood is present most of the day, more days than not, for a long period.",
+      "B": "During the depressed mood, at least two associated symptoms such as poor appetite, insomnia, low energy, low self-esteem, poor concentration, or hopelessness are present.",
+      "C": "Symptoms persist for the required duration without long symptom-free gaps and are not better explained by bipolar disorder or another condition."
+    },
+    "symptoms": [
+      {
+        "id": "chronic_low_mood",
+        "text": "chronic low mood"
+      },
+      {
+        "id": "low_energy",
+        "text": "low energy"
+      },
+      {
+        "id": "poor_self_esteem",
+        "text": "poor self-esteem"
+      },
+      {
+        "id": "hopelessness",
+        "text": "hopelessness"
+      },
+      {
+        "id": "poor_concentration",
+        "text": "poor concentration"
+      },
+      {
+        "id": "sleep_problems",
+        "text": "sleep problems"
+      }
+    ],
+    "duration": "At least 2 years",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "dysthymia",
+      "persistent depression",
+      "chronic sadness",
+      "long-term low mood",
+      "hopelessness"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Depressive Disorders",
+    "name": "Premenstrual Dysphoric Disorder",
+    "code": "N94.3",
+    "criteria": {
+      "A": "In most menstrual cycles, mood symptoms appear in the final week before menses and improve shortly after onset of menses.",
+      "B": "Symptoms include marked mood swings, irritability, depressed mood, or anxiety plus additional physical or behavioral symptoms.",
+      "C": "Symptoms cause distress or impairment and are not simply an exacerbation of another disorder."
+    },
+    "symptoms": [
+      {
+        "id": "marked_mood_swings_before_periods",
+        "text": "marked mood swings before periods"
+      },
+      {
+        "id": "irritability",
+        "text": "irritability"
+      },
+      {
+        "id": "depressed_mood",
+        "text": "depressed mood"
+      },
+      {
+        "id": "anxiety_or_tension",
+        "text": "anxiety or tension"
+      },
+      {
+        "id": "low_energy",
+        "text": "low energy"
+      },
+      {
+        "id": "changes_in_sleep_or_appetite",
+        "text": "changes in sleep or appetite"
+      }
+    ],
+    "duration": "Repeats across most menstrual cycles",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "pmdd",
+      "severe pms",
+      "period mood symptoms",
+      "premenstrual depression",
+      "premenstrual irritability"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Anxiety Disorders",
+    "name": "Separation Anxiety Disorder",
+    "code": "F93.0",
+    "criteria": {
+      "A": "Developmentally inappropriate fear or anxiety about separation from attachment figures is present.",
+      "B": "Symptoms may include distress when separated, worry about harm, refusal to go out alone, nightmares, or physical complaints.",
+      "C": "Fear lasts long enough to be clinically significant and is not better explained by another disorder."
+    },
+    "symptoms": [
+      {
+        "id": "extreme_distress_when_separating",
+        "text": "extreme distress when separating"
+      },
+      {
+        "id": "worry_that_loved_ones_will_be_harmed",
+        "text": "worry that loved ones will be harmed"
+      },
+      {
+        "id": "refuses_to_be_alone",
+        "text": "refuses to be alone"
+      },
+      {
+        "id": "avoids_school_or_leaving_home",
+        "text": "avoids school or leaving home"
+      },
+      {
+        "id": "nightmares_about_separation",
+        "text": "nightmares about separation"
+      },
+      {
+        "id": "stomachaches_or_headaches_during_separation",
+        "text": "stomachaches or headaches during separation"
+      }
+    ],
+    "duration": "At least 4 weeks in children or 6 months in adults",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "separation anxiety",
+      "fear of being away from parents",
+      "clingy",
+      "school refusal",
+      "worry about loved ones"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Anxiety Disorders",
+    "name": "Specific Phobia",
+    "code": "F40.298",
+    "criteria": {
+      "A": "Marked fear or anxiety occurs about a specific object or situation.",
+      "B": "The feared object or situation almost always triggers immediate anxiety and is actively avoided or endured with intense fear.",
+      "C": "Fear is out of proportion, lasts at least 6 months, causes impairment, and is not better explained by another disorder."
+    },
+    "symptoms": [
+      {
+        "id": "intense_fear_of_a_specific_trigger",
+        "text": "intense fear of a specific trigger"
+      },
+      {
+        "id": "immediate_anxiety_response",
+        "text": "immediate anxiety response"
+      },
+      {
+        "id": "avoidance_behavior",
+        "text": "avoidance behavior"
+      },
+      {
+        "id": "panic_when_exposed_to_trigger",
+        "text": "panic when exposed to trigger"
+      },
+      {
+        "id": "fear_feels_excessive_but_hard_to_control",
+        "text": "fear feels excessive but hard to control"
+      }
+    ],
+    "duration": "At least 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "specific phobia",
+      "intense fear",
+      "avoidance",
+      "fear of flying",
+      "fear of needles",
+      "fear of animals"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Anxiety Disorders",
+    "name": "Social Anxiety Disorder",
+    "code": "F40.10",
+    "criteria": {
+      "A": "Marked fear or anxiety about social situations involving possible scrutiny by others.",
+      "B": "The person fears acting in a way that will be negatively judged, and social situations are avoided or endured with intense anxiety.",
+      "C": "Fear is persistent, out of proportion, causes impairment, and is not better explained by another disorder or medical condition."
+    },
+    "symptoms": [
+      {
+        "id": "fear_of_embarrassment",
+        "text": "fear of embarrassment"
+      },
+      {
+        "id": "fear_of_being_judged",
+        "text": "fear of being judged"
+      },
+      {
+        "id": "avoids_social_situations",
+        "text": "avoids social situations"
+      },
+      {
+        "id": "anxiety_during_conversations_or_performances",
+        "text": "anxiety during conversations or performances"
+      },
+      {
+        "id": "blushing_or_shaking_in_social_settings",
+        "text": "blushing or shaking in social settings"
+      }
+    ],
+    "duration": "At least 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "social anxiety",
+      "social phobia",
+      "fear of judgment",
+      "performance anxiety",
+      "social avoidance"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Anxiety Disorders",
+    "name": "Panic Disorder",
+    "code": "F41.0",
+    "criteria": {
+      "A": "Recurrent unexpected panic attacks occur with sudden surges of intense fear and physical symptoms.",
+      "B": "At least one attack is followed by persistent worry about more attacks or maladaptive behavior change related to the attacks.",
+      "C": "Symptoms are not due to substances, medical illness, or another mental disorder."
+    },
+    "symptoms": [
+      {
+        "id": "sudden_intense_fear",
+        "text": "sudden intense fear"
+      },
+      {
+        "id": "heart_pounding",
+        "text": "heart pounding"
+      },
+      {
+        "id": "shortness_of_breath",
+        "text": "shortness of breath"
+      },
+      {
+        "id": "dizziness",
+        "text": "dizziness"
+      },
+      {
+        "id": "chest_discomfort",
+        "text": "chest discomfort"
+      },
+      {
+        "id": "fear_of_dying_or_losing_control",
+        "text": "fear of dying or losing control"
+      },
+      {
+        "id": "worry_about_future_attacks",
+        "text": "worry about future attacks"
+      }
+    ],
+    "duration": "At least 1 month of worry or behavior change after attacks",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "panic disorder",
+      "panic attacks",
+      "sudden fear",
+      "chest tightness",
+      "fear of another attack"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Anxiety Disorders",
+    "name": "Agoraphobia",
+    "code": "F40.00",
+    "criteria": {
+      "A": "Marked fear or anxiety occurs about situations where escape might be difficult or help may not be available if panic-like symptoms happen.",
+      "B": "Situations are actively avoided, require a companion, or are endured with intense fear.",
+      "C": "Fear is persistent, causes impairment, and is not better explained by another disorder."
+    },
+    "symptoms": [
+      {
+        "id": "fear_of_public_transport",
+        "text": "fear of public transport"
+      },
+      {
+        "id": "fear_of_open_spaces",
+        "text": "fear of open spaces"
+      },
+      {
+        "id": "fear_of_enclosed_spaces",
+        "text": "fear of enclosed spaces"
+      },
+      {
+        "id": "fear_of_crowds_or_lines",
+        "text": "fear of crowds or lines"
+      },
+      {
+        "id": "fear_of_leaving_home_alone",
+        "text": "fear of leaving home alone"
+      },
+      {
+        "id": "avoidance_of_places_that_feel_hard_to_escape",
+        "text": "avoidance of places that feel hard to escape"
+      }
+    ],
+    "duration": "At least 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "agoraphobia",
+      "fear of leaving home",
+      "fear of crowds",
+      "fear of being trapped",
+      "avoidance of public places"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Anxiety Disorders",
+    "name": "Generalized Anxiety Disorder",
+    "code": "F41.1",
+    "criteria": {
+      "A": "Excessive anxiety and worry occur more days than not about multiple events or activities.",
+      "B": "The worry is hard to control and is associated with symptoms such as restlessness, fatigue, poor concentration, irritability, muscle tension, or sleep problems.",
+      "C": "Symptoms cause distress or impairment and are not due to substances, medical illness, or another mental disorder."
+    },
+    "symptoms": [
+      {
+        "id": "excessive_worry",
+        "text": "excessive worry"
+      },
+      {
+        "id": "difficulty_controlling_worry",
+        "text": "difficulty controlling worry"
+      },
+      {
+        "id": "restlessness",
+        "text": "restlessness"
+      },
+      {
+        "id": "muscle_tension",
+        "text": "muscle tension"
+      },
+      {
+        "id": "irritability",
+        "text": "irritability"
+      },
+      {
+        "id": "poor_concentration",
+        "text": "poor concentration"
+      },
+      {
+        "id": "sleep_disturbance",
+        "text": "sleep disturbance"
+      }
+    ],
+    "duration": "At least 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "gad",
+      "generalized anxiety",
+      "constant worry",
+      "overthinking",
+      "tense",
+      "can't relax"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "name": "Obsessive-Compulsive Disorder",
+    "code": "F42",
+    "criteria": {
+      "A": "Obsessions, compulsions, or both are present.",
+      "B": "Obsessions are intrusive unwanted thoughts, and compulsions are repetitive behaviors or mental acts aimed at reducing distress or preventing feared outcomes.",
+      "C": "Symptoms are time-consuming or impairing and are not due to substances or another disorder."
+    },
+    "symptoms": [
+      {
+        "id": "intrusive_unwanted_thoughts",
+        "text": "intrusive unwanted thoughts"
+      },
+      {
+        "id": "excessive_checking",
+        "text": "excessive checking"
+      },
+      {
+        "id": "washing_or_cleaning_rituals",
+        "text": "washing or cleaning rituals"
+      },
+      {
+        "id": "counting_or_repeating",
+        "text": "counting or repeating"
+      },
+      {
+        "id": "need_for_symmetry",
+        "text": "need for symmetry"
+      },
+      {
+        "id": "mental_rituals",
+        "text": "mental rituals"
+      }
+    ],
+    "duration": "Usually persistent; often more than 1 hour per day",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "ocd",
+      "intrusive thoughts",
+      "compulsions",
+      "checking",
+      "cleaning rituals",
+      "obsessions"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "name": "Body Dysmorphic Disorder",
+    "code": "F45.22",
+    "criteria": {
+      "A": "There is a preoccupation with one or more perceived defects in appearance that are not observable or appear slight to others.",
+      "B": "The person performs repetitive behaviors or mental acts in response to appearance concerns.",
+      "C": "Preoccupation causes distress or impairment and is not better explained by an eating disorder."
+    },
+    "symptoms": [
+      {
+        "id": "constant_concern_about_appearance_flaws",
+        "text": "constant concern about appearance flaws"
+      },
+      {
+        "id": "mirror_checking",
+        "text": "mirror checking"
+      },
+      {
+        "id": "excessive_grooming",
+        "text": "excessive grooming"
+      },
+      {
+        "id": "seeking_reassurance_about_looks",
+        "text": "seeking reassurance about looks"
+      },
+      {
+        "id": "comparing_appearance_with_others",
+        "text": "comparing appearance with others"
+      },
+      {
+        "id": "avoiding_social_situations_because_of_looks",
+        "text": "avoiding social situations because of looks"
+      }
+    ],
+    "duration": "Persistent pattern",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "body dysmorphia",
+      "appearance obsession",
+      "feels ugly",
+      "mirror checking",
+      "fixated on flaw"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "name": "Hoarding Disorder",
+    "code": "F42",
+    "criteria": {
+      "A": "Persistent difficulty discarding possessions occurs regardless of actual value.",
+      "B": "The difficulty is driven by a perceived need to save items and distress linked to discarding them.",
+      "C": "Accumulation congests living areas or causes significant distress or impairment and is not better explained by another condition."
+    },
+    "symptoms": [
+      {
+        "id": "difficulty_throwing_things_away",
+        "text": "difficulty throwing things away"
+      },
+      {
+        "id": "strong_urge_to_save_items",
+        "text": "strong urge to save items"
+      },
+      {
+        "id": "cluttered_living_spaces",
+        "text": "cluttered living spaces"
+      },
+      {
+        "id": "distress_when_discarding_possessions",
+        "text": "distress when discarding possessions"
+      },
+      {
+        "id": "excessive_acquisition",
+        "text": "excessive acquisition"
+      }
+    ],
+    "duration": "Persistent pattern",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "hoarding",
+      "can't throw things away",
+      "clutter",
+      "saving everything",
+      "distress discarding items"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "name": "Trichotillomania",
+    "code": "F63.3",
+    "criteria": {
+      "A": "Recurrent pulling out of one's hair leads to hair loss.",
+      "B": "The person repeatedly tries to stop or reduce the behavior.",
+      "C": "The behavior causes distress or impairment and is not better explained by another medical or mental condition."
+    },
+    "symptoms": [
+      {
+        "id": "recurrent_hair_pulling",
+        "text": "recurrent hair pulling"
+      },
+      {
+        "id": "noticeable_hair_loss",
+        "text": "noticeable hair loss"
+      },
+      {
+        "id": "rising_tension_before_pulling",
+        "text": "rising tension before pulling"
+      },
+      {
+        "id": "repeated_attempts_to_stop",
+        "text": "repeated attempts to stop"
+      }
+    ],
+    "duration": "Persistent or recurrent pattern",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "trichotillomania",
+      "hair pulling",
+      "pulling out hair",
+      "body-focused repetitive behavior"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Obsessive-Compulsive and Related Disorders",
+    "name": "Excoriation Disorder",
+    "code": "L98.1",
+    "criteria": {
+      "A": "Recurrent skin picking leads to skin lesions.",
+      "B": "The person repeatedly tries to stop or reduce the picking.",
+      "C": "The behavior causes distress or impairment and is not better explained by another condition."
+    },
+    "symptoms": [
+      {
+        "id": "recurrent_skin_picking",
+        "text": "recurrent skin picking"
+      },
+      {
+        "id": "skin_sores_or_lesions",
+        "text": "skin sores or lesions"
+      },
+      {
+        "id": "repeated_attempts_to_stop",
+        "text": "repeated attempts to stop"
+      },
+      {
+        "id": "picking_during_stress_or_boredom",
+        "text": "picking during stress or boredom"
+      }
+    ],
+    "duration": "Persistent or recurrent pattern",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "skin picking",
+      "excoriation",
+      "picking at skin",
+      "body-focused repetitive behavior"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Trauma- and Stressor-Related Disorders",
+    "name": "Reactive Attachment Disorder",
+    "code": "F94.1",
+    "criteria": {
+      "A": "A child shows a consistent pattern of emotionally withdrawn behavior toward adult caregivers.",
+      "B": "There is persistent social and emotional disturbance such as minimal comfort-seeking, limited positive affect, or unexplained irritability or fearfulness.",
+      "C": "The pattern follows severe neglect or insufficient caregiving, begins before age 5, and is not better explained by autism spectrum disorder."
+    },
+    "symptoms": [
+      {
+        "id": "rarely_seeks_comfort",
+        "text": "rarely seeks comfort"
+      },
+      {
+        "id": "rarely_responds_to_comfort",
+        "text": "rarely responds to comfort"
+      },
+      {
+        "id": "social_withdrawal",
+        "text": "social withdrawal"
+      },
+      {
+        "id": "limited_positive_emotion",
+        "text": "limited positive emotion"
+      },
+      {
+        "id": "unexplained_fearfulness",
+        "text": "unexplained fearfulness"
+      },
+      {
+        "id": "history_of_neglect",
+        "text": "history of neglect"
+      }
+    ],
+    "duration": "Begins before age 5 after severe neglect",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "reactive attachment",
+      "attachment problems",
+      "withdrawn child",
+      "neglect history",
+      "doesn't seek comfort"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Trauma- and Stressor-Related Disorders",
+    "name": "Posttraumatic Stress Disorder",
+    "code": "F43.10",
+    "criteria": {
+      "A": "Exposure to actual or threatened death, serious injury, or sexual violence is followed by intrusive trauma symptoms.",
+      "B": "There is persistent avoidance plus negative changes in mood or thinking and marked arousal or reactivity.",
+      "C": "Symptoms last more than 1 month, cause impairment, and are not due to substances or medical illness."
+    },
+    "symptoms": [
+      {
+        "id": "intrusive_memories",
+        "text": "intrusive memories"
+      },
+      {
+        "id": "nightmares",
+        "text": "nightmares"
+      },
+      {
+        "id": "flashbacks",
+        "text": "flashbacks"
+      },
+      {
+        "id": "avoidance_of_reminders",
+        "text": "avoidance of reminders"
+      },
+      {
+        "id": "emotional_numbness",
+        "text": "emotional numbness"
+      },
+      {
+        "id": "hypervigilance",
+        "text": "hypervigilance"
+      },
+      {
+        "id": "startle_response",
+        "text": "startle response"
+      },
+      {
+        "id": "sleep_problems",
+        "text": "sleep problems"
+      }
+    ],
+    "duration": "More than 1 month",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "ptsd",
+      "trauma",
+      "flashbacks",
+      "nightmares",
+      "hypervigilance",
+      "avoidance"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Trauma- and Stressor-Related Disorders",
+    "name": "Acute Stress Disorder",
+    "code": "F43.0",
+    "criteria": {
+      "A": "After trauma exposure, the person develops intrusive, negative mood, dissociative, avoidance, or arousal symptoms.",
+      "B": "At least nine symptoms from these clusters are present.",
+      "C": "Symptoms begin or worsen after the trauma, last from 3 days to 1 month, and cause impairment."
+    },
+    "symptoms": [
+      {
+        "id": "intrusive_memories",
+        "text": "intrusive memories"
+      },
+      {
+        "id": "distressing_dreams",
+        "text": "distressing dreams"
+      },
+      {
+        "id": "feeling_numb",
+        "text": "feeling numb"
+      },
+      {
+        "id": "derealization",
+        "text": "derealization"
+      },
+      {
+        "id": "avoidance_of_reminders",
+        "text": "avoidance of reminders"
+      },
+      {
+        "id": "sleep_disturbance",
+        "text": "sleep disturbance"
+      },
+      {
+        "id": "hypervigilance",
+        "text": "hypervigilance"
+      }
+    ],
+    "duration": "3 days to 1 month after trauma",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "acute stress disorder",
+      "recent trauma",
+      "flashbacks after trauma",
+      "shock response",
+      "trauma symptoms"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Trauma- and Stressor-Related Disorders",
+    "name": "Adjustment Disorder",
+    "code": "F43.20",
+    "criteria": {
+      "A": "Emotional or behavioral symptoms develop in response to an identifiable stressor.",
+      "B": "Distress is out of proportion to the stressor and/or causes meaningful impairment in functioning.",
+      "C": "Symptoms begin within 3 months of the stressor, do not represent normal bereavement alone, and do not persist long after the stressor ends."
+    },
+    "symptoms": [
+      {
+        "id": "stress_related_sadness",
+        "text": "stress-related sadness"
+      },
+      {
+        "id": "stress_related_anxiety",
+        "text": "stress-related anxiety"
+      },
+      {
+        "id": "trouble_coping_after_a_life_change",
+        "text": "trouble coping after a life change"
+      },
+      {
+        "id": "behavior_changes_after_stress",
+        "text": "behavior changes after stress"
+      },
+      {
+        "id": "impaired_work_or_school_functioning",
+        "text": "impaired work or school functioning"
+      }
+    ],
+    "duration": "Begins within 3 months of stressor; usually resolves within 6 months after stressor ends",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "adjustment disorder",
+      "hard time coping",
+      "stress reaction",
+      "life change stress",
+      "situational depression"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Dissociative Disorders",
+    "name": "Dissociative Identity Disorder",
+    "code": "F44.81",
+    "criteria": {
+      "A": "There is disruption of identity with two or more distinct personality states or an experience of possession.",
+      "B": "The disruption includes recurrent gaps in memory for everyday events, important information, or traumatic events.",
+      "C": "Symptoms cause distress or impairment and are not a normal cultural practice or due to substances or medical illness."
+    },
+    "symptoms": [
+      {
+        "id": "identity_disruption",
+        "text": "identity disruption"
+      },
+      {
+        "id": "distinct_personality_states",
+        "text": "distinct personality states"
+      },
+      {
+        "id": "memory_gaps",
+        "text": "memory gaps"
+      },
+      {
+        "id": "lost_time",
+        "text": "lost time"
+      },
+      {
+        "id": "feeling_controlled_by_another_state",
+        "text": "feeling controlled by another state"
+      }
+    ],
+    "duration": "Persistent or recurrent pattern",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "did",
+      "multiple identities",
+      "lost time",
+      "memory gaps",
+      "identity switching"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Dissociative Disorders",
+    "name": "Dissociative Amnesia",
+    "code": "F44.0",
+    "criteria": {
+      "A": "There is an inability to recall important autobiographical information, usually related to trauma or stress.",
+      "B": "The memory problem is too extensive to be ordinary forgetting.",
+      "C": "Symptoms cause distress or impairment and are not due to substances, neurological illness, or another disorder."
+    },
+    "symptoms": [
+      {
+        "id": "inability_to_recall_personal_information",
+        "text": "inability to recall personal information"
+      },
+      {
+        "id": "memory_gaps_after_stress_or_trauma",
+        "text": "memory gaps after stress or trauma"
+      },
+      {
+        "id": "confusion_about_past_events",
+        "text": "confusion about past events"
+      },
+      {
+        "id": "lost_autobiographical_memory",
+        "text": "lost autobiographical memory"
+      }
+    ],
+    "duration": "Can be sudden or persistent",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "dissociative amnesia",
+      "memory loss after trauma",
+      "can't remember personal history",
+      "trauma-related amnesia"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Dissociative Disorders",
+    "name": "Depersonalization/Derealization Disorder",
+    "code": "F48.1",
+    "criteria": {
+      "A": "Persistent or recurrent experiences of depersonalization, derealization, or both are present.",
+      "B": "Reality testing remains intact during the episodes.",
+      "C": "Symptoms cause distress or impairment and are not due to substances, medical illness, or another mental disorder."
+    },
+    "symptoms": [
+      {
+        "id": "feeling_detached_from_self",
+        "text": "feeling detached from self"
+      },
+      {
+        "id": "feeling_unreal",
+        "text": "feeling unreal"
+      },
+      {
+        "id": "world_feels_dreamlike",
+        "text": "world feels dreamlike"
+      },
+      {
+        "id": "emotional_numbing",
+        "text": "emotional numbing"
+      },
+      {
+        "id": "distorted_sense_of_time",
+        "text": "distorted sense of time"
+      }
+    ],
+    "duration": "Persistent or recurrent",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "depersonalization",
+      "derealization",
+      "feeling unreal",
+      "detached from self",
+      "dreamlike world"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Somatic Symptom and Related Disorders",
+    "name": "Somatic Symptom Disorder",
+    "code": "F45.1",
+    "criteria": {
+      "A": "One or more distressing physical symptoms are present.",
+      "B": "There are excessive thoughts, feelings, or behaviors related to the symptoms, such as persistent worry, high health anxiety, or excessive time and energy devoted to them.",
+      "C": "The symptomatic state is persistent even if a specific medical explanation is absent or changes."
+    },
+    "symptoms": [
+      {
+        "id": "distressing_physical_symptoms",
+        "text": "distressing physical symptoms"
+      },
+      {
+        "id": "excessive_worry_about_symptoms",
+        "text": "excessive worry about symptoms"
+      },
+      {
+        "id": "high_health_anxiety",
+        "text": "high health anxiety"
+      },
+      {
+        "id": "frequent_medical_visits",
+        "text": "frequent medical visits"
+      },
+      {
+        "id": "a_lot_of_time_focused_on_bodily_symptoms",
+        "text": "a lot of time focused on bodily symptoms"
+      }
+    ],
+    "duration": "Typically more than 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "somatic symptom disorder",
+      "physical symptoms and anxiety",
+      "health worry",
+      "symptom preoccupation",
+      "body symptoms"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Somatic Symptom and Related Disorders",
+    "name": "Illness Anxiety Disorder",
+    "code": "F45.21",
+    "criteria": {
+      "A": "There is a preoccupation with having or getting a serious illness.",
+      "B": "Somatic symptoms are absent or mild, but anxiety about health is high, and the person easily becomes alarmed about bodily sensations.",
+      "C": "The illness fear is persistent, causes impairment, and is not better explained by another mental disorder."
+    },
+    "symptoms": [
+      {
+        "id": "fear_of_serious_illness",
+        "text": "fear of serious illness"
+      },
+      {
+        "id": "repeated_body_checking",
+        "text": "repeated body checking"
+      },
+      {
+        "id": "reassurance_seeking",
+        "text": "reassurance seeking"
+      },
+      {
+        "id": "avoiding_doctors_or_repeatedly_seeing_doctors",
+        "text": "avoiding doctors or repeatedly seeing doctors"
+      },
+      {
+        "id": "high_health_anxiety",
+        "text": "high health anxiety"
+      }
+    ],
+    "duration": "At least 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "illness anxiety",
+      "health anxiety",
+      "hypochondria",
+      "fear of illness",
+      "medical reassurance seeking"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Somatic Symptom and Related Disorders",
+    "name": "Conversion Disorder",
+    "code": "F44.7",
+    "criteria": {
+      "A": "One or more symptoms of altered voluntary motor or sensory function are present.",
+      "B": "Clinical findings show incompatibility between the symptom and recognized neurological or medical conditions.",
+      "C": "Symptoms cause distress or impairment or warrant medical evaluation and are not better explained by another disorder."
+    },
+    "symptoms": [
+      {
+        "id": "weakness_or_paralysis",
+        "text": "weakness or paralysis"
+      },
+      {
+        "id": "nonepileptic_seizures",
+        "text": "nonepileptic seizures"
+      },
+      {
+        "id": "abnormal_movement",
+        "text": "abnormal movement"
+      },
+      {
+        "id": "speech_symptoms",
+        "text": "speech symptoms"
+      },
+      {
+        "id": "sensory_loss",
+        "text": "sensory loss"
+      },
+      {
+        "id": "swallowing_difficulty_without_clear_neurological_cause",
+        "text": "swallowing difficulty without clear neurological cause"
+      }
+    ],
+    "duration": "Acute episode or persistent pattern",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "conversion disorder",
+      "functional neurological symptoms",
+      "stress-related neurological symptoms",
+      "nonepileptic seizures"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Feeding and Eating Disorders",
+    "name": "Avoidant/Restrictive Food Intake Disorder",
+    "code": "F50.8",
+    "criteria": {
+      "A": "An eating disturbance leads to persistent failure to meet nutritional or energy needs.",
+      "B": "The disturbance causes weight loss, nutritional deficiency, dependence on supplements or tube feeding, or marked interference with psychosocial functioning.",
+      "C": "It is not driven by body-image concerns and is not better explained by lack of food, a medical condition, or another mental disorder alone."
+    },
+    "symptoms": [
+      {
+        "id": "very_limited_food_intake",
+        "text": "very limited food intake"
+      },
+      {
+        "id": "strong_avoidance_of_certain_foods",
+        "text": "strong avoidance of certain foods"
+      },
+      {
+        "id": "weight_loss_or_poor_growth",
+        "text": "weight loss or poor growth"
+      },
+      {
+        "id": "nutritional_deficiency",
+        "text": "nutritional deficiency"
+      },
+      {
+        "id": "reliance_on_supplements",
+        "text": "reliance on supplements"
+      },
+      {
+        "id": "fear_of_eating_because_of_texture_or_choking",
+        "text": "fear of eating because of texture or choking"
+      }
+    ],
+    "duration": "Persistent pattern",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "arfid",
+      "restrictive eating",
+      "selective eating",
+      "food avoidance",
+      "poor nutrition without body image concerns"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Feeding and Eating Disorders",
+    "name": "Anorexia Nervosa",
+    "code": "F50.01",
+    "criteria": {
+      "A": "Restriction of energy intake leads to significantly low body weight.",
+      "B": "There is intense fear of gaining weight or persistent behavior that interferes with weight gain.",
+      "C": "Self-evaluation is overly influenced by body weight or shape, or the seriousness of low weight is not recognized."
+    },
+    "symptoms": [
+      {
+        "id": "restricted_eating",
+        "text": "restricted eating"
+      },
+      {
+        "id": "significantly_low_weight",
+        "text": "significantly low weight"
+      },
+      {
+        "id": "intense_fear_of_weight_gain",
+        "text": "intense fear of weight gain"
+      },
+      {
+        "id": "distorted_body_image",
+        "text": "distorted body image"
+      },
+      {
+        "id": "excessive_exercise",
+        "text": "excessive exercise"
+      },
+      {
+        "id": "denial_of_seriousness_of_low_weight",
+        "text": "denial of seriousness of low weight"
+      }
+    ],
+    "duration": "Persistent pattern",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "anorexia",
+      "starving self",
+      "fear of weight gain",
+      "very low weight",
+      "body image distortion"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Feeding and Eating Disorders",
+    "name": "Bulimia Nervosa",
+    "code": "F50.2",
+    "criteria": {
+      "A": "Recurrent binge eating occurs with a sense of loss of control.",
+      "B": "Recurrent compensatory behaviors are used to prevent weight gain, such as vomiting, laxatives, fasting, or excessive exercise.",
+      "C": "The binge-compensatory pattern occurs regularly, self-worth is overly tied to body shape or weight, and it does not occur only during anorexia nervosa."
+    },
+    "symptoms": [
+      {
+        "id": "binge_eating",
+        "text": "binge eating"
+      },
+      {
+        "id": "loss_of_control_while_eating",
+        "text": "loss of control while eating"
+      },
+      {
+        "id": "self_induced_vomiting",
+        "text": "self-induced vomiting"
+      },
+      {
+        "id": "laxative_misuse",
+        "text": "laxative misuse"
+      },
+      {
+        "id": "fasting_after_binges",
+        "text": "fasting after binges"
+      },
+      {
+        "id": "body_image_overconcern",
+        "text": "body image overconcern"
+      }
+    ],
+    "duration": "At least once a week for 3 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "bulimia",
+      "binge and purge",
+      "vomiting after eating",
+      "loss of control eating",
+      "compensatory behaviors"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Feeding and Eating Disorders",
+    "name": "Binge-Eating Disorder",
+    "code": "F50.8",
+    "criteria": {
+      "A": "Recurrent binge eating episodes occur with a sense of loss of control.",
+      "B": "Binges are associated with features such as eating very rapidly, eating when not hungry, eating until uncomfortably full, eating alone because of embarrassment, or feeling guilty afterward.",
+      "C": "Episodes cause marked distress, occur regularly, and are not accompanied by recurrent compensatory behaviors."
+    },
+    "symptoms": [
+      {
+        "id": "eating_unusually_large_amounts",
+        "text": "eating unusually large amounts"
+      },
+      {
+        "id": "loss_of_control_while_eating",
+        "text": "loss of control while eating"
+      },
+      {
+        "id": "eating_rapidly",
+        "text": "eating rapidly"
+      },
+      {
+        "id": "eating_when_not_hungry",
+        "text": "eating when not hungry"
+      },
+      {
+        "id": "eating_alone_from_embarrassment",
+        "text": "eating alone from embarrassment"
+      },
+      {
+        "id": "guilt_after_overeating",
+        "text": "guilt after overeating"
+      }
+    ],
+    "duration": "At least once a week for 3 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "binge eating",
+      "overeating",
+      "loss of control eating",
+      "emotional eating",
+      "guilt after eating"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Substance-Related and Addictive Disorders",
+    "name": "Alcohol Use Disorder",
+    "code": "F10.20",
+    "criteria": {
+      "A": "A problematic pattern of alcohol use leads to impairment or distress, shown by multiple control, social, risky-use, or physical dependence symptoms.",
+      "B": "The person may drink more than intended, fail to cut down, spend a lot of time using alcohol, crave it, or keep drinking despite harm.",
+      "C": "Severity depends on the number of symptoms present within a 12-month period."
+    },
+    "symptoms": [
+      {
+        "id": "drinks_more_than_intended",
+        "text": "drinks more than intended"
+      },
+      {
+        "id": "can_t_cut_down",
+        "text": "can't cut down"
+      },
+      {
+        "id": "craving_alcohol",
+        "text": "craving alcohol"
+      },
+      {
+        "id": "continues_despite_relationship_or_work_problems",
+        "text": "continues despite relationship or work problems"
+      },
+      {
+        "id": "tolerance",
+        "text": "tolerance"
+      },
+      {
+        "id": "withdrawal_symptoms",
+        "text": "withdrawal symptoms"
+      },
+      {
+        "id": "risky_drinking",
+        "text": "risky drinking"
+      }
+    ],
+    "duration": "Symptoms cluster within a 12-month period",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "alcohol use disorder",
+      "alcohol dependence",
+      "drinking problem",
+      "can't stop drinking",
+      "alcohol craving"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Substance-Related and Addictive Disorders",
+    "name": "Cannabis Use Disorder",
+    "code": "F12.20",
+    "criteria": {
+      "A": "A problematic pattern of cannabis use leads to impairment or distress with multiple substance-use symptoms.",
+      "B": "The person may use more than intended, fail to cut down, crave cannabis, or continue despite social, work, or health problems.",
+      "C": "Severity depends on the number of symptoms within a 12-month period."
+    },
+    "symptoms": [
+      {
+        "id": "uses_cannabis_more_than_intended",
+        "text": "uses cannabis more than intended"
+      },
+      {
+        "id": "can_t_cut_down",
+        "text": "can't cut down"
+      },
+      {
+        "id": "craving_cannabis",
+        "text": "craving cannabis"
+      },
+      {
+        "id": "keeps_using_despite_problems",
+        "text": "keeps using despite problems"
+      },
+      {
+        "id": "tolerance",
+        "text": "tolerance"
+      },
+      {
+        "id": "withdrawal_like_irritability_or_sleep_issues",
+        "text": "withdrawal-like irritability or sleep issues"
+      }
+    ],
+    "duration": "Symptoms cluster within a 12-month period",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "cannabis use disorder",
+      "marijuana dependence",
+      "weed problem",
+      "can't stop using cannabis",
+      "cannabis craving"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Substance-Related and Addictive Disorders",
+    "name": "Opioid Use Disorder",
+    "code": "F11.20",
+    "criteria": {
+      "A": "A problematic pattern of opioid use leads to impairment or distress with multiple substance-use symptoms.",
+      "B": "The person may use more than intended, fail to cut down, crave opioids, or continue despite harm, and may develop tolerance or withdrawal.",
+      "C": "Severity depends on symptom count within a 12-month period."
+    },
+    "symptoms": [
+      {
+        "id": "opioid_craving",
+        "text": "opioid craving"
+      },
+      {
+        "id": "uses_more_than_intended",
+        "text": "uses more than intended"
+      },
+      {
+        "id": "can_t_cut_down",
+        "text": "can't cut down"
+      },
+      {
+        "id": "continues_despite_harm",
+        "text": "continues despite harm"
+      },
+      {
+        "id": "tolerance",
+        "text": "tolerance"
+      },
+      {
+        "id": "withdrawal_symptoms",
+        "text": "withdrawal symptoms"
+      },
+      {
+        "id": "risky_use",
+        "text": "risky use"
+      }
+    ],
+    "duration": "Symptoms cluster within a 12-month period",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "opioid use disorder",
+      "opioid dependence",
+      "pain pill addiction",
+      "heroin addiction",
+      "withdrawal",
+      "overdose risk"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Substance-Related and Addictive Disorders",
+    "name": "Stimulant Use Disorder",
+    "code": "F15.20",
+    "criteria": {
+      "A": "A problematic pattern of stimulant use leads to impairment or distress with multiple substance-use symptoms.",
+      "B": "The person may use more than intended, fail to cut down, crave stimulants, or continue despite social, occupational, or medical harm.",
+      "C": "Severity depends on symptom count within a 12-month period."
+    },
+    "symptoms": [
+      {
+        "id": "stimulant_craving",
+        "text": "stimulant craving"
+      },
+      {
+        "id": "uses_more_than_intended",
+        "text": "uses more than intended"
+      },
+      {
+        "id": "can_t_cut_down",
+        "text": "can't cut down"
+      },
+      {
+        "id": "continues_despite_consequences",
+        "text": "continues despite consequences"
+      },
+      {
+        "id": "tolerance",
+        "text": "tolerance"
+      },
+      {
+        "id": "withdrawal_with_fatigue_or_low_mood",
+        "text": "withdrawal with fatigue or low mood"
+      },
+      {
+        "id": "risky_behavior_during_use",
+        "text": "risky behavior during use"
+      }
+    ],
+    "duration": "Symptoms cluster within a 12-month period",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "stimulant use disorder",
+      "cocaine addiction",
+      "amphetamine addiction",
+      "stimulant dependence",
+      "crash after stimulant use"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Substance-Related and Addictive Disorders",
+    "name": "Tobacco Use Disorder",
+    "code": "F17.200",
+    "criteria": {
+      "A": "A problematic pattern of tobacco use leads to impairment or distress with multiple dependence symptoms.",
+      "B": "The person may use more than intended, fail to quit, crave nicotine, or continue despite health problems.",
+      "C": "Severity depends on symptom count within a 12-month period."
+    },
+    "symptoms": [
+      {
+        "id": "strong_nicotine_craving",
+        "text": "strong nicotine craving"
+      },
+      {
+        "id": "repeated_failed_quit_attempts",
+        "text": "repeated failed quit attempts"
+      },
+      {
+        "id": "uses_despite_health_risks",
+        "text": "uses despite health risks"
+      },
+      {
+        "id": "withdrawal_irritability",
+        "text": "withdrawal irritability"
+      },
+      {
+        "id": "tolerance",
+        "text": "tolerance"
+      },
+      {
+        "id": "uses_soon_after_waking",
+        "text": "uses soon after waking"
+      }
+    ],
+    "duration": "Symptoms cluster within a 12-month period",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "tobacco use disorder",
+      "nicotine dependence",
+      "smoking addiction",
+      "can't quit smoking",
+      "nicotine craving"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "name": "Oppositional Defiant Disorder",
+    "code": "F91.3",
+    "criteria": {
+      "A": "A pattern of angry or irritable mood, argumentative or defiant behavior, or vindictiveness is present.",
+      "B": "Symptoms occur during interaction with at least one person who is not a sibling and cause impairment.",
+      "C": "The pattern is not better explained by psychotic, substance, depressive, or bipolar disorders."
+    },
+    "symptoms": [
+      {
+        "id": "often_loses_temper",
+        "text": "often loses temper"
+      },
+      {
+        "id": "argues_with_authority_figures",
+        "text": "argues with authority figures"
+      },
+      {
+        "id": "defies_rules",
+        "text": "defies rules"
+      },
+      {
+        "id": "blames_others",
+        "text": "blames others"
+      },
+      {
+        "id": "easily_annoyed",
+        "text": "easily annoyed"
+      },
+      {
+        "id": "spiteful_or_vindictive_behavior",
+        "text": "spiteful or vindictive behavior"
+      }
+    ],
+    "duration": "At least 6 months",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "odd",
+      "oppositional behavior",
+      "defiant child",
+      "argues with adults",
+      "irritable and angry"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "category": "Personality Disorders",
+    "name": "Antisocial Personality Disorder",
+    "code": "F60.2",
+    "criteria": {
+      "A": "There is a pervasive pattern of disregard for and violation of the rights of others since age 15.",
+      "B": "The pattern includes behaviors such as deceitfulness, impulsivity, aggression, irresponsibility, or lack of remorse, and the person is at least age 18 with evidence of conduct disorder before age 15.",
+      "C": "Behavior is not exclusively during schizophrenia or bipolar disorder."
+    },
+    "symptoms": [
+      {
+        "id": "lying_or_manipulation",
+        "text": "lying or manipulation"
+      },
+      {
+        "id": "rule_breaking",
+        "text": "rule breaking"
+      },
+      {
+        "id": "aggression",
+        "text": "aggression"
+      },
+      {
+        "id": "reckless_disregard_for_safety",
+        "text": "reckless disregard for safety"
+      },
+      {
+        "id": "irresponsibility",
+        "text": "irresponsibility"
+      },
+      {
+        "id": "lack_of_remorse",
+        "text": "lack of remorse"
+      }
+    ],
+    "duration": "Stable pattern since adolescence or early adulthood",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "antisocial personality",
+      "sociopathic traits",
+      "chronic rule breaking",
+      "lack of remorse",
+      "manipulative behavior"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "category": "Personality Disorders",
+    "name": "Borderline Personality Disorder",
+    "code": "F60.3",
+    "criteria": {
+      "A": "A pervasive pattern of instability in relationships, self-image, and emotions with marked impulsivity is present.",
+      "B": "The pattern includes symptoms such as frantic efforts to avoid abandonment, unstable relationships, identity disturbance, impulsivity, self-harm, affective instability, emptiness, anger, or transient paranoia/dissociation.",
+      "C": "The pattern is stable across time and situations and begins by early adulthood."
+    },
+    "symptoms": [
+      {
+        "id": "fear_of_abandonment",
+        "text": "fear of abandonment"
+      },
+      {
+        "id": "unstable_intense_relationships",
+        "text": "unstable intense relationships"
+      },
+      {
+        "id": "identity_disturbance",
+        "text": "identity disturbance"
+      },
+      {
+        "id": "impulsivity",
+        "text": "impulsivity"
+      },
+      {
+        "id": "self_harm_or_suicidal_behavior",
+        "text": "self-harm or suicidal behavior"
+      },
+      {
+        "id": "rapid_mood_shifts",
+        "text": "rapid mood shifts"
+      },
+      {
+        "id": "chronic_emptiness",
+        "text": "chronic emptiness"
+      },
+      {
+        "id": "intense_anger",
+        "text": "intense anger"
+      }
+    ],
+    "duration": "Long-standing pattern beginning by early adulthood",
+    "severity": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "keywords": [
+      "borderline personality",
+      "bpd",
+      "fear of abandonment",
+      "self-harm",
+      "unstable relationships",
+      "emotional swings"
+    ],
+    "risk_level": "high"
+  }
+]
