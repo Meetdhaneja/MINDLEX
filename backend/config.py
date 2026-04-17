@@ -18,6 +18,7 @@ class Settings(BaseModel):
     app_version: str = "3.0.0"
     environment: str = Field(default_factory=lambda: os.getenv("ENVIRONMENT", "development"))
     database_url: str = Field(default_factory=lambda: os.getenv("DATABASE_URL", "sqlite:///./psychat.db"))
+    groq_api_key: str | None = Field(default_factory=lambda: os.getenv("GROQ_API_KEY"))
     redis_url: str = Field(default_factory=lambda: os.getenv("REDIS_URL", "redis://localhost:6379/0"))
     lm_studio_url: str = Field(default_factory=lambda: os.getenv("LM_STUDIO_URL", "http://127.0.0.1:1234"))
     lm_studio_model: str = Field(default_factory=lambda: os.getenv("LM_STUDIO_MODEL", "nvidia/nemotron-3-nano-4b"))

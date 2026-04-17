@@ -58,6 +58,7 @@ emotion_service = EmotionService(settings.emotion_model_name)
 rag_service = RagService(settings.dsm_data_path, settings.embedding_model_name)
 llm_service = LLMService(
     settings.lm_studio_url,
+    settings.groq_api_key,
     settings.lm_studio_model,
     settings.llm_temperature,
     settings.llm_max_tokens,
@@ -178,6 +179,7 @@ async def chat(payload: ChatRequest) -> ChatResponse:
                 try:
                     response_text = await llm_service.generate(system_prompt, user_prompt, history + [{"role": "user", "content": message}])
                 except httpx.HTTPError as exc:
+                    print(f"LLM Error Trace: {exc}")
                     raise HTTPException(status_code=502, detail=f"LM Studio request failed: {exc}") from exc
                 cache_service.set_json(cache_key, {"response": response_text})
 
